@@ -46,7 +46,7 @@ documentation = "https://jgoutin.github.io/airfs/"
 python = "^3.9"
 requests = { version = "*"}
 python-dateutil = { version = "*"}
-azure-storage-blob = { version = "^2", optional = true }
+azure-storage-blob = { version = ">=2,<13", optional = true }
 azure-storage-file = { version = "^2", optional = true }
 oss2 = { version = "^2.15", optional = true }
 boto3 = { version = "^1.26", optional = true }
